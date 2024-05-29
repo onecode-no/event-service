@@ -15,7 +15,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 9
+          version: 9.0.6 # TODO: How can this be inferred from the repository?
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
@@ -40,3 +40,4 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
