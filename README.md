@@ -41,19 +41,19 @@ Import:
 **ESM** (Node.js, Bun)
 
 ```js
-import { BaseEvent, MemoryDriver } from "@onecode-no/event-store";
+import {} from "pkg";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const { BaseEvent, MemoryDriver } = require("@onecode-no/event-store");
+const {} = require("pkg");
 ```
 
 **CDN** (Deno, Bun and Browsers)
 
 ```js
-import { BaseEvent, MemoryDriver } from "https://esm.sh/@onecode-no/event-store";
+import {} from "https://esm.sh/pkg";
 ```
 
 <!-- /automd -->
