@@ -1,8 +1,8 @@
 import { safeDestr } from "destr";
-import type { BaseEventInterface, EventContext } from "../types";
+import type { EventContext, EventInterface } from "../types";
 
 export class BaseEvent<Ctx extends EventContext = EventContext>
-  implements BaseEventInterface
+  implements EventInterface
 {
   constructor(
     protected name: string,
@@ -31,7 +31,7 @@ export class BaseEvent<Ctx extends EventContext = EventContext>
   public static fromJson(
     this: new () => BaseEvent,
     json: string,
-  ): BaseEventInterface {
+  ): EventInterface {
     const { name, context } = safeDestr<{
       name: string;
       context: EventContext;

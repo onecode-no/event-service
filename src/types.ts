@@ -1,6 +1,6 @@
 export type EventContext<BaseContext = Record<string, unknown>> = BaseContext;
 
-export interface BaseEventInterface {
+export interface EventInterface {
   getName(): string;
 
   getContext(): EventContext;
@@ -8,20 +8,20 @@ export interface BaseEventInterface {
   toString(): string;
 }
 
-export type EventBusListenerCallback = <Ctx extends BaseEventInterface>(
+export type EventListenerCallback = <Ctx extends EventInterface>(
   event: Ctx,
 ) => Promise<unknown>;
 
-export interface EventBusOptions {
+export interface EventListenerOptions {
   once?: boolean | false;
 }
 
-export interface EventBusInterface {
+export interface EventDriver {
   listen(
     eventName: string,
-    callback: EventBusListenerCallback,
-    options: EventBusOptions,
+    callback: EventListenerCallback,
+    options: EventListenerOptions,
   ): Promise<void>;
 
-  emit(event: BaseEventInterface): Promise<void>;
+  emit(event: EventInterface): Promise<void>;
 }

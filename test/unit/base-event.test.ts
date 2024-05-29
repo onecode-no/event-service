@@ -1,10 +1,10 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import type { BaseEventInterface } from "../../src";
+import type { EventInterface } from "../../src";
 import BaseEvent from "../../src/events/base-event";
 
 describe("events::base-event", () => {
   const eventCtx = {};
-  let baseEvent: BaseEventInterface;
+  let baseEvent: EventInterface;
 
   beforeEach(() => {
     baseEvent = new BaseEvent("name", eventCtx);
