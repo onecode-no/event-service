@@ -1,6 +1,6 @@
 {
   "name": "@onecode-no/event-service",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "",
   "repository": "https://github.com/onecode-no/event-service.git",
   "license": "MIT",
@@ -16,7 +16,10 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",

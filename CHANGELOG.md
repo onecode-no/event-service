@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.12
+
+[compare changes](https://github.com/onecode-no/event-service/compare/v0.0.11...v0.0.12)
+
+### 🏡 Chore
+
+- Lint:fix ([a18c05f](https://github.com/onecode-no/event-service/commit/a18c05f))
+
+### ❤️ Contributors
+
+- Hareland <packagist@proton.me>
+
 ## v0.0.11
 
 [compare changes](https://github.com/onecode-no/event-service/compare/v0.0.10...v0.0.11)
