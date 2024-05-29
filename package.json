@@ -1,8 +1,8 @@
 {
   "name": "@onecode-no/event-service",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
-  "repository": "onecode-no/event-service",
+  "repository": "https://github.com/onecode-no/event-service.git",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
