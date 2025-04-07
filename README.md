@@ -94,3 +94,22 @@ Made by [community](https://github.com/onecode-no/event-service/graphs/contribut
 _🤖 auto updated with [automd](https://automd.unjs.io)_
 
 <!-- /automd -->
+
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@onecode-no/event-service/latest.svg?style=flat&colorA=020420&colorB=00DC82
+
+[npm-version-href]: https://npmjs.com/package/@onecode-no/event-service
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/@onecode-no/event-service.svg?style=flat&colorA=020420&colorB=00DC82
+
+[npm-downloads-href]: https://npm.chart.dev/@onecode-no/event-service
+
+[license-src]: https://img.shields.io/npm/l/@onecode-no/event-service.svg?style=flat&colorA=020420&colorB=00DC82
+
+[license-href]: https://npmjs.com/package/@onecode-no/event-service
+
+[nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
+
+[nuxt-href]: https://nuxt.com
