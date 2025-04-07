@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v0.0.18
+
+[compare changes](https://github.com/onecode-no/event-service/compare/v0.0.17...v0.0.18)
+
 ## v0.0.17
 
 [compare changes](https://github.com/onecode-no/event-service/compare/v0.0.15...v0.0.17)
