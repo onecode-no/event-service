@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.21
+
+[compare changes](https://github.com/onecode-no/event-service/compare/v0.0.20...v0.0.21)
+
+### 🏡 Chore
+
+- **docs:** Update readme ([34894f7](https://github.com/onecode-no/event-service/commit/34894f7))
+
+### ❤️ Contributors
+
+- Hareland <packagist@proton.me>
+
 ## v0.0.20
 
 [compare changes](https://github.com/onecode-no/event-service/compare/v0.0.19...v0.0.20)
