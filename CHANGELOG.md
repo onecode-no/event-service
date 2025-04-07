@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.0.17
+
+[compare changes](https://github.com/onecode-no/event-service/compare/v0.0.15...v0.0.17)
+
+### 🏡 Chore
+
+- **release:** V0.0.15" ([8cc83ac](https://github.com/onecode-no/event-service/commit/8cc83ac))
+- **release:** V0.0.15 ([3dbe52c](https://github.com/onecode-no/event-service/commit/3dbe52c))
+
+### ❤️ Contributors
+
+- Hareland <packagist@proton.me>
+
 ## v0.0.15
 
 [compare changes](https://github.com/onecode-no/event-service/compare/v0.0.15...v0.0.15)
