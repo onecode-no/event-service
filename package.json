@@ -16,15 +16,12 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist", "src"],
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
-    "lint": "eslint . && biome check .",
-    "lint:fix": "automd && eslint . --fix && biome check --apply .",
+    "lint": "eslint .",
+    "lint:fix": "automd && eslint . --fix",
     "prepack": "pnpm build",
     "play": "jiti playground",
     "release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
@@ -33,7 +30,6 @@
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.3",
     "@types/amqplib": "^0.10.5",
     "@types/node": "^20.12.12",
     "@types/sinon": "^17.0.3",
