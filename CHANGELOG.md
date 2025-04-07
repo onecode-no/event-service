@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.19
+
+[compare changes](https://github.com/onecode-no/event-service/compare/v0.0.18...v0.0.19)
+
+### 🏡 Chore
+
+- **docs:** Update readme and changelogen ([aafe8b2](https://github.com/onecode-no/event-service/commit/aafe8b2))
+
+### ❤️ Contributors
+
+- Hareland <packagist@proton.me>
+
 ## v0.0.18
 
 [compare changes](https://github.com/onecode-no/event-service/compare/v0.0.17...v0.0.18)
