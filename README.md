@@ -1,13 +1,15 @@
 # @onecode-no/event-service
 
-<!-- automd:badges color=yellow -->
+[![Build](https://github.com/onecode-no/event-service/actions/workflows/ci.yml/badge.svg)](https://github.com/onecode-no/event-serviceactions/workflows/ci.yml)
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
+[![Nuxt][nuxt-src]][nuxt-href]
 
-[![npm version](https://img.shields.io/npm/v/@onecode-no/event-service?color=yellow)](https://npmjs.com/package/@onecode-no/event-service)
-[![npm downloads](https://img.shields.io/npm/dm/@onecode-no/event-service?color=yellow)](https://npmjs.com/package/@onecode-no/event-service)
+A simple and extensible event handler
 
-<!-- /automd -->
+- [✨ &nbsp;Release Notes](/CHANGELOG.md)
 
-This is my package description.
 
 ## Usage
 
