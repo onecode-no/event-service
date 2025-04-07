@@ -1,13 +1,9 @@
 # @onecode-no/event-service
 
 [![Build](https://github.com/onecode-no/event-service/actions/workflows/ci.yml/badge.svg)](https://github.com/onecode-no/event-serviceactions/workflows/ci.yml)
-
 [![npm version][npm-version-src]][npm-version-href]
-
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-
 [![License][license-src]][license-href]
-
 [![Nuxt][nuxt-src]][nuxt-href]
 
 A simple and extensible event handler
